@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image:url("../Pictures/wallpaper2.jpg"); 
+    background-image:linear-gradient(rgba(4,9,30,0,7),rgba(4,9,30,0,7));
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    padding: 2% 6%;
+    justify-content: space-between;
+}
+
+nav img{
+    width: 40vh;
+    position: relative;
+}
+
+#TEXT{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links ul{   
+    list-style: none;
+}
+
+.Menu{
+    text-align: center;
+    margin-bottom: 27%;
+    list-style: none;
+}
+
+.Menu a{
+    color: #fff;
+    text-align: left;
+    font-size: 30px;
+    text-decoration: none;
+    transition: 0.2s;
+    padding: 15px;
+
+}
+
+.Menu a:hover{
+    border-width: 6px;
+    border: #fff;
+    border-style:ridge;
+    background-color: rgb(46, 5, 93);
+}
+
+.text-box{
+    margin-top: 5%;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+}
+
+.text-box h1{
+    font-size: 40px;
+}
+
+.text-box a:hover{
+    border: #fff;
+    border-style:solid;
+    transition: 0.2s;
+}
+
+.text-box button{
+    text-decoration: none;
+    color: #fff;
+    border: 3px solid #fff;
+    padding: 12px 34px;
+    font-size: 25px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.text-box button:hover{
+    cursor: pointer;
+    background-color:rgb(46, 5, 93);
+    transition: 0.3s;
+
+}
